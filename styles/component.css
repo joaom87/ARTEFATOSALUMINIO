@@ -14,7 +14,6 @@
 		src: url("../fonts/ecoicons/ecoicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ecoicons/ecoicons.woff") format("woff"), url("../fonts/ecoicons/ecoicons.ttf") format("truetype"), url("../fonts/ecoicons/ecoicons.svg#ecoicons") format("svg");
 }
 
-
 /* Icomoon.com */
 
 .gn-menu-main,
@@ -231,7 +230,7 @@ input.gn-search:focus {
 }
 
 .gn-icon-earth::before {
-		content: "\ea3c"
+		content: "\e004"
 }
 
 .gn-icon-cog::before {

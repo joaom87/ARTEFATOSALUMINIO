@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>ARTEFATOS DE ALUMÍNIO</title>
-  <link rel="sortcut icon" href="imagens/icone.png" type="image/png" />;
+  <link rel="sortcut icon" href="imagens/icone.png" type="image/png" />
   <link rel="stylesheet" href="styles/estilo.css"/>
   <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
@@ -18,6 +18,10 @@
 <h1>ARTEFATOS DE ALUMÍNIO</h1>
 </header>
 
+ <header = id="capa">
+    <img src="imagens/capa.jpg">
+  </header>
+
 <div class="container">
       <ul id="gn-menu" class="gn-menu-main">
         <li class="gn-trigger">
@@ -25,9 +29,10 @@
           <nav class="gn-menu-wrapper">
             <div class="gn-scroller">
               <ul class="gn-menu">
-                  <a class="gn-icon gn-icon-download" href="#panelas">Panelas</a>
+                <li>
+                  <a class="gn-icon gn-icon-download" href="#panelas" >Panelas</a>
                 </li>
-                <li><a class="gn-icon gn-icon-cog"href="#frigideiras">Frigideiras</a></li>
+                <li><a class="gn-icon gn-icon-cog" href="#frigideiras">Frigideiras</a></li>
                 <li><a class="gn-icon gn-icon-help">...</a></li>
                 <li>
                   <a class="gn-icon gn-icon-archive">...</a>
@@ -37,21 +42,14 @@
           </nav>
         </li>
         <li><a href="index.html">Home</a></li>
-        
+        <li id="titulo">ARTEFATOS DE ALUMÍNIO</li>
         <li><a class="codrops-icon codrops-icon-drop" href="https://wa.me/5585987372100" target="_blank"><span>Whatsapp</span></a></li>
-      </ul>
-    </div><!-- /container -->
-    <script src="js/classie.js"></script>
-    <script src="js/gnmenu.js"></script>
-    <script>
-      new gnMenu( document.getElementById( 'gn-menu' ) );
-    </script>
+      </ul> 
+ 
+ 
 
-  
-  <header = id="cabecalho">
-  </header>
-
-  <div = class="panelas">
+  <div = class="panelas" style="padding-left: 80px; padding-right: 80px;"
+>
     <h1 = id="panelas">Panelas</h1>
 
     <table class="Table">
@@ -97,7 +95,7 @@
     <h2>Frigideira n°18</h2><h3>R$ 51,00</h3></td>
           <td><img src="imagens/frigideiras/f20.jpg" alt="Frigideira n°20" style="width:100%">
     <h2>Frigideira n°20</h2><h3>R$ 57,00</h3></td>
-          <td><img src="imagens/frigideiras/f22.jpg" alt="Frigideira n°22" style="width:100%">
+          <td><img src="imagens/frigideiras/f22.jpg" alt="Frigideira n°22" style="width:101%">
     <h2>Frigideira n°22</h2><h3>R$ 63,00</h3></td>
       </tr>
       <tr>
@@ -114,6 +112,15 @@
 
 
   </div>
+
+
+  </div><!-- /container -->
+
+<script src="js/classie.js"></script>
+    <script src="js/gnmenu.js"></script>
+    <script>
+      new gnMenu( document.getElementById( 'gn-menu' ) );
+    </script>
 
 </body>
 </html>
