@@ -120,6 +120,16 @@ SeÃ§Ã£o .CONTAINER - ConteÃºdo com 3 colunas <<<<<=============
 	padding:2.5%; /* 30px Ã· 1200px = 0.025 x 100 = 2.5%*/
 	width:95%; /* 1200px Ã· 1200px = 1 x 100 = 100% .:. 100% - 5.0% de padding (direita e esquerda) = 95%*/
 }
+
+#descricao h2{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 32pt;
+	text-align: center;
+	font-weight: 300;
+	text-shadow: none;
+	letter-spacing: -0.05555555556em; /* -1px Ã· 18px = -0.05555555556em */
+	color: white;
+}
 /*Por causa do padding, a largura, width, do .container passou de 1.200px para 1.140px (95%)*/
 
 /*
@@ -397,6 +407,15 @@ a:hover{
 	text-shadow:none;
 	text-align: center;
 	background-color: rgb(61,79,105);
+}
+#descricao h2{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22pt;
+	text-align: center;
+	font-weight: 300;
+	text-shadow: none;
+	letter-spacing: -0.05555555556em; /* -1px Ã· 18px = -0.05555555556em */
+	color: white;
 }
 }
 
