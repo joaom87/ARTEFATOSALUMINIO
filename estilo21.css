@@ -130,6 +130,10 @@ SeÃ§Ã£o .CONTAINER - ConteÃºdo com 3 colunas <<<<<=============
 	letter-spacing: -0.05555555556em; /* -1px Ã· 18px = -0.05555555556em */
 	color: white;
 }
+
+#buy a {
+	left: 50%;
+}
 /*Por causa do padding, a largura, width, do .container passou de 1.200px para 1.140px (95%)*/
 
 /*
