@@ -46,6 +46,7 @@ h3{
 	line-height: 1.1875em; /* 38px Ã· 32px = 1.1875em */
 }
 p{
+	text-align: center;
 	font-weight: 300;
 	letter-spacing: -0.05555555556em; /* -1px Ã· 18px = -0.05555555556em */
 	color: red;
