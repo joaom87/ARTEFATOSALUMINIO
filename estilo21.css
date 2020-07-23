@@ -10,11 +10,10 @@ body{
 	background-color: rgb(171, 171, 166);
 	color:#868686; 
 	font-family: "Open Sans", Helvetica, sans-serif, arial; 
-	font-size: 18px; /* 18px Ã· 16px = 1.125em */
+	 /* 18px Ã· 16px = 1.125em */
 	font-weight: 300;
 	line-height: 1.2222222222em; /* 22px Ã· 18px = 1.22222222222em*/
 	text-align: left; 
-	text-shadow:1px 1px 0px #fff; 
 }
 .center{
 	margin: 0 auto;
@@ -46,10 +45,12 @@ h3{
 	line-height: 1.1875em; /* 38px Ã· 32px = 1.1875em */
 }
 p{
+	font-size: 28px;
 	text-align: center;
 	font-weight: 300;
 	letter-spacing: -0.05555555556em; /* -1px Ã· 18px = -0.05555555556em */
 	color: red;
+	text-shadow:1px 1px 0px #fff; 
 }
 a, a:link, a:visited{
 	color:black; 
@@ -96,9 +97,11 @@ nav{
 				letter-spacing: -0.0909090909em; /* -2px Ã· 22px = -0.0909090909em */
 				line-height: 1.18181818182em; /* 26px Ã· 22px = 1.18181818182em */
 				display:inline-block;
+				text-shadow:1px 1px 0px #fff; 
 			}
 			nav a#wpp:link, nav a#wpp:visited{
 				color: #25d366;
+				text-shadow:1px 1px 0px #fff; 
 			}
 			nav a.ativo:link, nav a:hover{
 				color:#FE9380; 
@@ -199,11 +202,24 @@ footer{
 }
 .copyright{
 	float:left;
-	margin-left: 2.5%; /* 30px Ã· 1200px = 0.025 x 100 = 2.5%*/
+	margin-left: 23%; /* 30px Ã· 1200px = 0.025 x 100 = 2.5%*/
 }
 /*----------------------------------------------------------
 Media Queries <<<<<=========================================
 ----------------------------------------------------------*/
+
+@media screen and (max-width:1024px){
+	.copyright{
+	float:left;
+	margin-left: 13%; /* 30px Ã· 1200px = 0.025 x 100 = 2.5%*/
+}
+.Table h2#F{
+	font-size: 25px;
+}
+.outros h2{
+	font-size: 20px;
+}
+}
 
 /* 
 960px â€“ Tablets no formato paisagem e alguns monitores mais antigos
@@ -316,11 +332,20 @@ Media Queries <<<<<=========================================
 }
 .Table h2{
 	font-weight: normal;
-	font-size: 25px;
+	font-size: 18px;
 	margin: 0px;
 	padding: 0px;
 	border-spacing: 0px;
 	color: white;
+}
+.frigideiras h2{
+	font-size: 18px;
+}
+.Table h2#F{
+	font-size: 18px;
+}
+.outros h2{
+	font-size: 18px;
 }
 
 .Table h3{
@@ -330,6 +355,17 @@ Media Queries <<<<<=========================================
 	padding: 0px;
 	border-spacing: 0px;
 	color: white;
+}
+.copyright{
+	float:left;
+	margin-left: 23%; /* 30px Ã· 1200px = 0.025 x 100 = 2.5%*/
+}
+.copyright{
+	float:left;
+	margin-left: 13%; /* 30px Ã· 1200px = 0.025 x 100 = 2.5%*/
+}
+.copyright p{
+	font-size: 20px;
 }
 }
 /*
@@ -390,6 +426,9 @@ a:hover{
 	border-spacing: 0px;
 	color: white;
 }
+.Table h2#F{
+	font-size: 10px;
+}
 
 .Table h3{
 	font-weight: normal;
@@ -420,6 +459,19 @@ a:hover{
 	text-shadow: none;
 	letter-spacing: -0.05555555556em; /* -1px Ã· 18px = -0.05555555556em */
 	color: white;
+}
+.copyright{
+	float:left;
+	margin-left: 0%; /* 30px Ã· 1200px = 0.025 x 100 = 2.5%*/
+}
+}
+
+/* 
+375px â€“ Smartphones no formato retrato com tela pequena
+***********************************************************/
+@media screen and (max-width:375px){
+	.Table h2#F{
+	font-size: 10px;
 }
 }
 
@@ -461,7 +513,7 @@ a:hover{
 		font-size:0.7777777778em; /*14px Ã· 18px*/
 	}
 /*.container*/
-	.container .panela, .container .frigideira, .container .caldeirao{
+	.container .panela, .container .frigideira, .container .caldeirao, .container .outros{
 		float:none;
 		height:100%;
 		width:100%;
@@ -473,6 +525,12 @@ a:hover{
 	padding: 0px;
 	border-spacing: 0px;
 	color: white;
+}
+.Table h2#F{
+	font-size: 10px;
+}
+.Table h2#P{
+	font-size: 12px;
 }
 
 .Table h3{
